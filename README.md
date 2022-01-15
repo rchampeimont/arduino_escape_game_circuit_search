@@ -1,5 +1,5 @@
 # arduino_escape_game_circuit_search
-Used in an escape game where players had to assemble circuits together.
+Used in an escape game where players had to find 3 circuits and solder their wires to a "main computer" (Arduino and its main circuit).
 
 Each circuit can have a lot of useless components just for the story-telling but the only thing that really matters is its resistance (the only really connected components are resistor(s)). Each circuit has a different resistance (1 kΩ, 10 kΩ, 100 kΩ) allowing the Arduino to check wether the correct circuits are connected to the right wires.
 
