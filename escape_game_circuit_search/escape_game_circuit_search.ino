@@ -38,8 +38,8 @@ void loop() {
   bool solved = true;
   for (int i=0; i<NUMBER_OF_CIRCUITS; i++) {
     const int val = analogRead(ANALOG_INPUTS[i]);
-    Serial.print(val);
-    Serial.print(" ");
+    //Serial.print(val);
+    //Serial.print(" ");
     if (val > 512 - ALLOWED_DELTA && val < 512 + ALLOWED_DELTA) {
       digitalWrite(LED_OUTPUTS[i], HIGH);
     } else {
@@ -47,7 +47,7 @@ void loop() {
       digitalWrite(LED_OUTPUTS[i], LOW);
     }
   }
-  Serial.println("");
+  //Serial.println("");
 
   if (solved) {
     if (solvedSince == 0) {
