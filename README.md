@@ -8,3 +8,12 @@ When each circuit is connected on the right wires, an LED with light up to show 
 ## Schematic
 The circuits that players are supposed to find and connect are resistors R5, R7 and R9 in the schematic. Matching resistors R4, R6 and R8 are on the Arduino-attached main circuit (like all other components) and allow to check that an equivalent resistance is connected by checking that the voltage in the middle point is half of the reference voltage.
 ![Schematic](escape_game_circuit_search_schematic_schem.png?raw=true)
+
+
+## Photos
+Development version on breadboard:
+
+![Photo of development version - Front](photos/dev_version_front.jpg?raw=true)
+The circuits with the blue and yellow wires are in fact only one resistor (resp. 10 kΩ and 100 kΩ), and no current goes throught the other components. The circuit with red wires is composed of ten 100 Ω resistors which together make 1 kΩ (and some other resistors are just for decoration).
+
+![Photo of development version - Back of circuits](photos/dev_version_back.jpg?raw=true)
