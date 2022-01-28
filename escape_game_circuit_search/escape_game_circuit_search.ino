@@ -10,7 +10,7 @@ const int ALLOWED_DELTA = 100;
 const int SECONDS_CONTACT_BEFORE_CONSIDERED_SOLVED = 5;
 
 // Morse settings
-const int BUZZER_PIN = 12;
+const int BUZZER_PIN = 7;
 const int CW_SPEED = 5; // morse speed
 const int TONE_FREQ = 500; // buzze tone Hz
 cww_MorseTx morse(LED_BUILTIN, CW_SPEED, BUZZER_PIN, TONE_FREQ);
