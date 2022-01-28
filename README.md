@@ -11,7 +11,7 @@ The circuits that players are supposed to find and connect are resistors R5, R7 
 
 
 ## Photos
-Development version on breadboard:
+Here is what the assembled circuit looks like:
 
 ![Photo of development version - Front](photos/dev_version_front.jpg?raw=true)
 The circuits with the blue and yellow wires are in fact only one resistor (resp. 10 kΩ and 100 kΩ), and no current goes throught the other components. The circuit with red wires is composed of ten 100 Ω resistors which together make 1 kΩ (and some other resistors are just for decoration).
